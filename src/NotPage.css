@@ -1,0 +1,16 @@
+.not-found {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .title h1 {
+    font-size: 48px;
+    color: rgb(255, 0, 0);
+    margin-bottom: 20px;
+  }
+  
+
+
+.paragraph{
+    color: rgb(255, 0, 0);
+}

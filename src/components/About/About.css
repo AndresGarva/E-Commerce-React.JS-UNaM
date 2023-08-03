@@ -1,0 +1,58 @@
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 400px; /* Ancho fijo del cuadro */
+    height: 400px; /* Altura fija del cuadro */
+    background-color: #8C0000;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: auto; /* Agrega barras de desplazamiento si el contenido es demasiado largo */
+    padding: 2rem;
+    box-sizing: border-box; /* Asegura que el padding no aumente el tamaño total del cuadro */
+    font-size: 20px;
+    color: #FFBE0F;
+  }
+  
+  /* Estilos para el párrafo */
+  .container p {
+    margin: 0; /* Elimina el margen predeterminado del párrafo */
+    text-align: center;
+    padding-top: 1rem;
+    font-weight: bold;
+  }
+
+  .parr{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 500px; /* Ancho fijo del cuadro */
+    height: 250px; /* Altura fija del cuadro */
+    background-color: #8C0000;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: auto; /* Agrega barras de desplazamiento si el contenido es demasiado largo */
+    padding: 1rem;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-decoration: none;
+    color: #FFBE0F;
+    font-weight: bold;
+    
+  }
+
+.items-p{
+    font-size: 20px;
+    text-decoration:none;
+    padding-top: 1rem;
+    list-style-type: none;
+    text-align: left;
+  }
+  

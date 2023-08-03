@@ -1,0 +1,139 @@
+/* .product-card-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+    text-align: center;
+}
+
+.card{
+    background-color: #8C0000;
+    padding-top: 1rem;
+    border-radius: 1rem;
+    max-width: 200px;
+}
+
+.card h3, h4{
+    margin: 50px;
+    color: #fff;
+}
+
+.card button {
+    border-radius: 1rem;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: #000000;
+    background-color: yellow;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+}
+.card button:hover {
+    opacity: 0.7;
+} */
+
+.product-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card{
+    background-color: #8C0000;
+    padding: 1rem;
+    border-radius: 1rem;
+    max-width: 200px;
+    width: 100%;
+}
+
+.card h3, h4{
+    margin-top: 3rem;
+    color: #000000;
+}
+
+
+
+.card img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.card button {
+    border-radius: 1rem;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: #000000;
+    background-color: yellow;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+}
+.card button:hover {
+    opacity: 0.7;
+}
+
+/*Css parte del search */
+.search-bar-container{
+    padding-top: 1rem;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+  }
+  
+  .search-bar {
+    padding: 0.3rem 2rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 300px;
+  }
+  
+  .search-button {
+    position: absolute;
+    top: 0.35rem;
+    right: 0.5rem;
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1;
+  }
+  
+  .search-result {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .search-result:hover {
+    background-color: #f0f0f0;
+  }
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+    .product-card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

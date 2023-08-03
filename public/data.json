@@ -1,0 +1,60 @@
+[
+    {
+      "id": 1,
+      "name": "Placa Arduino R3",
+      "price": 5000,
+      "img": "img/arduino.jpg",
+      "quanty": 1
+    },
+    {
+      "id": 2,
+      "name": "Usb C",
+      "price": 2500,
+      "img": "img/usb.jpg",
+      "quanty": 1
+    },
+  
+    {
+      "id": 3,
+      "name": "Cargador Full-Power",
+      "price": 10500,
+      "img": "img/cargador.jpg",
+      "quanty": 1
+    },
+    {
+      "id": 4,
+      "name": "Aurculares In-near",
+      "price": 5800,
+      "img": "img/auriculares.jpg",
+      "quanty": 1
+    },
+    {
+      "id": 5,
+      "name": "Cable Sata 3",
+      "price": 1000,
+      "img": "img/sata.jpg",
+      "quanty": 1
+    },
+    {
+      "id": 6,
+      "name": "SSD Kingston",
+      "price": 18000,
+      "img": "img/ssd.jpg",
+      "quanty": 1
+    },
+    {
+      "id": 7,
+      "name": "Parlante JBL BT",
+      "price": 25000,
+      "img": "img/parlante.jpg",
+      "quanty": 1
+    },
+    {
+      "id": 8,
+      "name": "Ram DDR4 Fury",
+      "price": 15000,
+      "img": "img/ram.jpg",
+      "quanty": 1
+    }
+    
+  ]
