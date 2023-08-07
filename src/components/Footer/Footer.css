@@ -1,0 +1,24 @@
+.footer-container{
+    background: linear-gradient(to bottom, #000, #3D0000);
+    /* background-color: red; */
+    margin-top: 1rem;
+    padding: 1rem;
+    
+    
+}
+
+.footer{
+
+    
+    color: #FFF;
+    text-align: center;
+    
+
+}
+
+.footer p a{
+    text-decoration: none;
+    color: #FFF;
+    transition: color .1s, background-color .1s;
+
+}

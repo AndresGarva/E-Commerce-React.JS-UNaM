@@ -9,9 +9,10 @@ function Contact() {
     <div className='conteiner'>
         <p className='parr'> Contactos
           <ul className='items-p'>
-            <li>Teléfono: XXXXXXX235</li>
-            <li>Correo: andres********@gmail.com</li>
-            <li>Dirección Postal: 3300</li>
+            <li>Teléfono: XXXXXXX235.</li>
+            <li>Correo: andres********@gmail.com.</li>
+            <li>Direccion: Av. Libertado 1550, San Vicente, Misiones, Argentina.</li>
+            <li>Dirección Postal: 3300.</li>
             <li>Fax: </li>
           </ul>
         </p>

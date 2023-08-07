@@ -7,6 +7,7 @@ import DataProvider from './components/Context/DataContext';
 import About from './components/About/About';
 import Contact from './components/About/Contact'
 import NotPage from './NotPage';
+//import Footer from './components/Footer/Footer';
 //Importamos desde react-router-dom el BrowserRouter, Routes, Route para establecer correspondientemente las rutas
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path='/about' element={<About />}/>
           <Route path='/contact' element={<Contact />}/>
           <Route path='*' element={ <NotPage />}/>
+          
         </Routes>    
       </BrowserRouter>
     </DataProvider>
