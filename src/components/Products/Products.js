@@ -28,6 +28,7 @@ const Products = () => {
 
   return (
     <>
+  <div className="product-container">
     {/* Aca se coloca el contenido del input para la busqueda */}
     <div className="search-bar-container">
         <input
@@ -38,6 +39,7 @@ const Products = () => {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
     </div>
+    
     <div className="product-card-container">
       {filteredData.map((product) => {
         const productPrice = product.price.toLocaleString();
@@ -51,6 +53,7 @@ const Products = () => {
         );
       })}
     </div>
+  </div>
     </>
   );
 };

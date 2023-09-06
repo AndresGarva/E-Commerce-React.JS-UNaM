@@ -7,7 +7,7 @@
     margin: auto;
     width: 400px; /* Ancho fijo del cuadro */
     height: 320px; /* Altura fija del cuadro */
-    background-color: #8C0000;
+    background: linear-gradient(to top, #8C0000, #BD2000, #8C0000);
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: auto; /* Agrega barras de desplazamiento si el contenido es demasiado largo */
@@ -15,7 +15,7 @@
     box-sizing: border-box; /* Asegura que el padding no aumente el tamaño total del cuadro */
     font-size: 20px;
     margin-top: 8rem;
-    color: #FFBE0F;
+    color: #FFFF;
   }
   
   /* Estilos para el párrafo */
@@ -35,7 +35,7 @@
     margin: auto;
     width: 355px; /* Ancho fijo del cuadro */
     height: 300px; /* Altura fija del cuadro */
-    background-color: #8C0000;
+    background: linear-gradient(to top, #8C0000, #BD2000, #8C0000);
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: auto; /* Agrega barras de desplazamiento si el contenido es demasiado largo */
@@ -44,8 +44,9 @@
     box-sizing: border-box;
     font-size: 30px;
     text-decoration: none;
-    color: #FFBE0F;
+    color: #FFFF;
     font-weight: bold;
+    margin-top: 10rem;
     
   }
 

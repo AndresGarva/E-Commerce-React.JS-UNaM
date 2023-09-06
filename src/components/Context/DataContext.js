@@ -12,7 +12,11 @@ const DataProvider = ({ children }) =>{
         axios("data.json").then((res)=> setData(res.data));
     },[]);
 
-    return <dataContext.Provider value={{ data, cart, setCart }}>{children}</dataContext.Provider>;
+    const clearCart = () => {
+        setCart([]); // Limpia el carrito
+    };
+
+    return <dataContext.Provider value={{ data, cart, setCart, clearCart }}>{children}</dataContext.Provider>;
 
 };
 

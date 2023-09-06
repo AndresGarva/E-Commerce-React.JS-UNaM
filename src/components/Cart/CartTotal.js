@@ -3,7 +3,7 @@ import { dataContext } from "../Context/DataContext";
 
 
 const CartTotal = () => {
-    const { cart } = useContext(dataContext);
+    const { cart, clearCart } = useContext(dataContext);
 
     const total = cart.reduce((acc, product) => acc + product.price * product.quantity, 0);
 
@@ -11,6 +11,7 @@ const CartTotal = () => {
     const handlePay = () => {
 
         alert(`Pagando total: $${priceTotal}`);
+        clearCart();
       };
     return (
     <div className='cartTotal'>
